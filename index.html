@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!-- font awesome 5 free -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <!-- Poppins font from Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="app.css">
+
+  <title>Frontendor | Component</title>
+</head>
+
+<body>
+
+    <!--Offer Alert ================================ -->
+     <div class="offer-alert">
+       <div class="offer-alert__container container">
+         <span>Berkunjung Ke Blog Ku Yuk..</span> <a href="https://golek-artikel.com" class="offer-alert__btn">Visit</a>
+       </div>
+     </div>
+    
+  <!--Hero ====================================== -->
+  <header class="hero container-fluid border-bottom">
+    <nav class="hero-nav container px-4 px-lg-0 mx-auto">
+      <ul class="nav w-100 list-unstyled align-items-center p-0">
+        <li class="hero-nav__item">
+          <img class="hero-nav__logo" src="logo.svg">
+        </li>
+        <li id="hero-menu" class="flex-grow-1 hero__nav-list hero__nav-list--mobile-menu ft-menu">
+          <ul class="hero__menu-content nav flex-column flex-lg-row ft-menu__slider animated list-unstyled p-2 p-lg-0">
+            <li class="flex-grow-1">
+              <ul class="nav nav--lg-side list-unstyled align-items-center p-0">
+                <li class="hero-nav__item">
+                  <a href="#" class="hero-nav__link">Home</a>
+                </li>
+                <li class="hero-nav__item">
+                  <a href="www.golek-artikel.com" class="hero-nav__link">Blog</a>
+                </li>
+              
+              </ul>
+            </li>
+          </ul>
+          <button onclick="document.querySelector('#hero-menu').classList.toggle('ft-menu--js-show')"
+            class="ft-menu__close-btn animated">
+            <svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z"
+                clip-rule="evenodd" />
+              <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z"
+                clip-rule="evenodd" />
+            </svg>
+          </button>
+        </li>
+        <li class="d-lg-none flex-grow-1 d-flex flex-row-reverse hero-nav__item">
+          <button onclick="document.querySelector('#hero-menu').classList.toggle('ft-menu--js-show')"
+            class="text-center px-2">
+            <i class="fas fa-bars"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <div class="hero__content container mx-auto">
+      <div class="row px-0 mx-0 align-items-center">
+        <div class="col-lg-6 px-0">
+          <h1 class="hero__title mb-3">
+            Hai Nama Saya <span class="highlight">Rysnanto</span>
+          </h1>
+          <p class="hero__paragraph mb-5">
+             ini adalah web pages github saya yang sederhana
+             </p>
+ 
+        </div>
+     
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================================== -->
+
+  <div id="product" class="block-5 space-between-blocks">
+    <div class="container">
+      <!-- HEADER -->
+      <div class="col-lg-8 col-xl-7 mx-auto text-center mb-5">
+        <h1 class="block__title mb-3">Yang Kepo Tentang saya</h1><p class="block__paragraph mb-0">
+
+        </p>
+      </div>
+      <div class="row align-items-center flex-column-reverse flex-lg-row px-2">
+        <!-- LEFT CONTENT -->
+        <div class="col-lg-4">
+          <div class="card-2 d-flex flex-row flex-lg-row-reverse">
+         <div class="px-2"></div>
+               </div>
+          <div class="card-2 d-flex flex-row flex-lg-row-reverse">
+           
+          </div>
+          <div class="card-2 d-flex flex-row flex-lg-row-reverse">
+          
+            <div class="px-2"></div>
+          
+          </div>
+        </div>
+        <!-- RIGHT CONTENT -->
+        <div class="col-lg-4">
+          <div class="card-2 d-flex">
+            <div>
+              <span class="card-2__symbol mx-auto">
+                <i class="fas fa-map-marker-alt"></i>
+              </span>
+            </div>
+            <div class="px-2"></div>
+            <div>
+              <h3 class="card-2__title mb-2">Alamat</h3>
+              <p class="card-2__paragraph">
+              Provinsi Jawa Tengah , Kab. Rembang , Kec.Kragan</p>
+            </div>
+          </div>
+          <div class="card-2 d-flex">
+            
+          </div>
+          <div class="card-2 d-flex">
+            <div>
+              <span class="card-2__symbol mx-auto">
+                <i class="fas fa-mobile"></i>
+              </span>
+            </div>
+            <div class="px-2"></div>
+            <div>
+              <h3 class="card-2__title mb-2">Device saya</h3>
+              <p class="card-2__paragraph">
+              Device Yang saya gunakan Redmi Note 8 , Ram 4/64Gb
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- =================================== -->
+
+  <div class="block-44 py-5">
+    <div class="container">
+      <div class="row px-0 mx-0 justify-content-center align-items-center">
+        <div class="block-44__logo-container">
+          <img class="block-44__logo" src="logo.svg">
+        </div>
+        <ul class="block-44__list list-unstyled justify-content-center mb-0">
+          <li class="block-44__li-1">
+            <a href="#" class="block-44__link">Instagram</a>
+          </li>
+          <li class="block-44__li-1">
+            <a href="#" class="block-44__link">Facebook</a>
+          </li>
+          <li class="block-44__li-1">
+            <a href="#" class="block-44__link">Twiter</a>
+          </li>
+          <li class="block-44__li-1">
+            <a href="#" class="block-44__link">Whatsapp</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr class="block-44__divider">
+    <div class="container">
+      <div class="row flex-column flex-md-row px-2 justify-content-center">
+        <div class="flex-grow-1">
+          <ul class="block-44__extra-links d-flex list-unstyled p-0">
+            <li class="mx-2">
+              <a href="#" class="block-44__link m-0">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="mx-2">
+              <a href="#" class="block-44__link m-0">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="mx-2">
+              <a href="#" class="block-44__link m-0">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p class="block-41__copyrights">&copy; 2020 rysnant0.github.io . All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================== -->
+
+  <script src="app.js"></script>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
